@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07d42bdf.chunk.css",
+    "main.js": "/static/js/main.d7bf1da2.chunk.js",
+    "main.js.map": "/static/js/main.d7bf1da2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.99beb2d2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.99beb2d2.js.map",
+    "static/css/2.e1b25a95.chunk.css": "/static/css/2.e1b25a95.chunk.css",
+    "static/js/2.2c763e02.chunk.js": "/static/js/2.2c763e02.chunk.js",
+    "static/js/2.2c763e02.chunk.js.map": "/static/js/2.2c763e02.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e1b25a95.chunk.css.map": "/static/css/2.e1b25a95.chunk.css.map",
+    "static/css/main.07d42bdf.chunk.css.map": "/static/css/main.07d42bdf.chunk.css.map",
+    "static/js/2.2c763e02.chunk.js.LICENSE.txt": "/static/js/2.2c763e02.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/static/media/Raleway-Medium.1af9f1e9.ttf",
+    "static/media/demo_0.016547b9.gif": "/static/media/demo_0.016547b9.gif",
+    "static/media/earable.231e971d.jpg": "/static/media/earable.231e971d.jpg",
+    "static/media/earable_worn.e31abf3a.jpg": "/static/media/earable_worn.e31abf3a.jpg",
+    "static/media/nano.80d4a7f6.jpg": "/static/media/nano.80d4a7f6.jpg",
+    "static/media/nano_headband_worn.fddad26b.jpg": "/static/media/nano_headband_worn.fddad26b.jpg",
+    "static/media/styles.css": "/static/media/revicons.e8746a62.woff",
+    "static/media/temp-device.dced7aed.jpeg": "/static/media/temp-device.dced7aed.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99beb2d2.js",
+    "static/css/2.e1b25a95.chunk.css",
+    "static/js/2.2c763e02.chunk.js",
+    "static/css/main.07d42bdf.chunk.css",
+    "static/js/main.d7bf1da2.chunk.js"
+  ]
+}
