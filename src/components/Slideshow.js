@@ -48,25 +48,25 @@ function Slideshow () {
             <Card 
                 src={nano} 
                 label="current beta prototype"
-                text="Prototype currently in use for beta trials."
+                text="Prototype currently in use for beta trials"
             />
             
             <Card 
                 src={nano_headband_worn} 
                 label="current beta prototype"
-                text="Sensor can be worn as a headband."
+                text="Sensor can be worn as a headband"
             />
             
             <Card 
                 src={earable} 
                 label="upcoming MVP"
-                text="Concept design for an earable sensor."
+                text="Concept design for an earable sensor"
             />
             
             <Card 
                 src={earable_worn} 
                 label="upcoming MVP"
-                text="Earable sensors are tiny, discreet comfortable and portable."
+                text="Earable sensors are tiny, discreet, comfortable and portable"
             />
 
         </Carousel>
