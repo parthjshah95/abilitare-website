@@ -3,6 +3,11 @@
   src: url('../fonts/Raleway/static/Raleway-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
+@font-face {
+  font-family: 'Courgette';
+  src: url('../fonts/Courgette/Courgette-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
 .navbar {
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   background: #f46524;
@@ -37,6 +42,20 @@
   align-items: center;
   font-family: 'Raleway', serif;
 }
+
+.note {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+  margin-left: 10px;
+  align-self: flex-end;
+  font-style: italic;
+}
+
+.brainforce-logo{
+  font-family: 'Courgette', sans-serif;
+  font-style: normal;
+}
+
 
 .fa-typo3 {
   margin-left: 0.5rem;
