@@ -2,30 +2,30 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Opening.css';
+import demo_gif from '../images/demo_0.gif';
 
 function Opening() {
     return (
-        <div className='top-page'>
-            <div className='left-side'>
-                <div className='hero-container'>
-                    <h1>Abilitare</h1>
-                    <div className='short-info'>
-                    <p>Lorem ipsum dolor sit amet. Dolores quas qui architecto nulla ex laborum voluptatem non autem qui architecto</p>
-                    </div>
-                    <div className="hero-btns">
-                        <Button
-                            className='btns'
-                            buttonStyle='btn--primary'
-                            buttonSize='btn--large'
-                        >
-                            Sign Up for a Demo Now!
-                        </Button>
-                    </div>
+        <div className='horizontal-flex'>
+            <div className='hero-container'>
+                <h1>Head controlled mouse</h1>
+                <div className='short-info'>
+                    <p>Hand disability should not stop anyone from using a computer or a phone</p>
+                    <br/>
+                    <p>Control the mouse cursor with your head!</p>
+                </div>
+                <div className="hero-btns">
+                    <Button
+                        className='btns'
+                        buttonStyle='btn--primary'
+                        buttonSize='btn--large'
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdxhVYFVfOgdrkV48Mt5FEHtOUvk6_XwhyupsekxMf6H9wh1Q/viewform?usp=sf_link"
+                    >
+                        Sign up for our beta!
+                    </Button>
                 </div>
             </div>
-            <div className='right-side'>
-                <div className='hero-container'></div>
-            </div>
+            <img class="contain" src={demo_gif} alt=""/>
         </div>
     )
 }
