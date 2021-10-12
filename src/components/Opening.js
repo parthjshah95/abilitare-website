@@ -8,7 +8,7 @@ function Opening() {
     return (
         <div className='horizontal-flex'>
             <div className='hero-container'>
-                <h1>Head controlled mouse</h1>
+                <h1>Head Controlled Mouse</h1>
                 <div className='short-info'>
                     <p>Hand disability should not stop anyone from using a computer or a phone</p>
                     <br/>
@@ -21,7 +21,7 @@ function Opening() {
                         buttonSize='btn--large'
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdxhVYFVfOgdrkV48Mt5FEHtOUvk6_XwhyupsekxMf6H9wh1Q/viewform?usp=sf_link"
                     >
-                        Sign up for our beta!
+                        Sign Up For Our Beta!
                     </Button>
                 </div>
             </div>

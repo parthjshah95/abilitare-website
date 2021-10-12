@@ -25,6 +25,8 @@
     align-items: center;
     /* box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2); */
     margin: 20px 0px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .hero-container > h1 {
@@ -38,6 +40,8 @@
     width: 50%;
     height: 50%;
     object-fit: contain;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .short-info {
@@ -80,18 +84,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .contain{
         width: 100%;
         height: 50%;
         object-fit: contain;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
         font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .short-info {
@@ -115,5 +125,7 @@
         width: 100%;
         height: 50%;
         object-fit: contain;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
