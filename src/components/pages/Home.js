@@ -4,7 +4,7 @@ import Cards from '../Cards';
 import Opening from '../Opening';
 import Slideshow from '../Slideshow';
 import Footer from '../Footer';
-
+import SignUp from '../SignUp';
 
 function Home () {
     return (
@@ -12,6 +12,7 @@ function Home () {
         <Opening />
         {/* <Cards /> */}
         <Slideshow/>
+        <SignUp/>
         <Footer/>
         </>
     )

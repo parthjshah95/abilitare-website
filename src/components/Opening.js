@@ -11,7 +11,6 @@ function Opening() {
                 <h1>Head Controlled Mouse</h1>
                 <div className='short-info'>
                     <p>Hand disability should not stop anyone from using a computer or a phone</p>
-                    <br/>
                     <p>Control the mouse cursor with your head!</p>
                 </div>
                 <div className="hero-btns">
