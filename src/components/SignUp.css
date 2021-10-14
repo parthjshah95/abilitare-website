@@ -55,6 +55,7 @@
 .google-form {
     width: 50%;
     padding-top: 50px;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1200px) {

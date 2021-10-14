@@ -4,7 +4,7 @@ import './SignUp.css';
 
 function SignUp() {
     return (
-        <div className="sign-up">
+        <div id="sign-up-section" className="sign-up">
             <div className="left-box">
                 <div className="sign-up-heading">
                     <h1>Want to try it out?</h1>

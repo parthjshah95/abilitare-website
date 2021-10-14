@@ -16,7 +16,7 @@
 .btn--primary {
     background-color: var(--primary);
     color: #ffffff;
-    border-radius: 20px;
+    border-radius: 15px;
     border: none;
     box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }

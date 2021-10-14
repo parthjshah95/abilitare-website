@@ -6,8 +6,9 @@
 .footer {
     /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
     background: #f46524;
-    height: 80px;
+    height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -18,19 +19,132 @@
     margin-top: 40px;
 }
 
-.footer-container {
+.footer-top {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    height: 80px;
-    max-width: 1500px;
+    width: 100%;
+    justify-content: center;
+    height: 80%;
+    border-bottom: 1px solid white;
+}
+
+.footer-bottom {
+    color: white;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 7px;
+}
+
+.footer-first {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    width: 33%;
 }
 
 .footer-logo {
     color: #fff;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     font-family: 'Raleway', serif;
+}
+
+.footer-second {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+
+.footer-third {
+    color: white;
+    justify-content: center;
+    
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.follow-us {
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-logo {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mail-ids2 {
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.main-address{
+    font-size: 17px;
+    padding-top: 4px;
+}
+
+.follow-us2 {
+    width: 11%;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.follow-us3 {
+    width: 12%;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        height: 1%;
+    }
+
+    .footer-first {
+        justify-content: center;
+        height: 25%;
+    }
+
+    .footer-second {
+        height: 20%;
+        width: 70%;
+    }
+
+    .footer-third {
+        
+        height: 55%;
+        width: 70%;
+    }
+
+    .footer {
+        height: 600px;
+    }
 }

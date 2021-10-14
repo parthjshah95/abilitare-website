@@ -18,7 +18,7 @@ function Opening() {
                         className='btns'
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdxhVYFVfOgdrkV48Mt5FEHtOUvk6_XwhyupsekxMf6H9wh1Q/viewform?usp=sf_link"
+                        href="#sign-up-section"
                     >
                         Sign Up For Our Beta!
                     </Button>
