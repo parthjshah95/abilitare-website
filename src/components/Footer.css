@@ -38,7 +38,10 @@
 }
 
 .copyright {
+    font-family: Catamaran;
     padding-top: 7px;
+    font-size: 18px;
+    color: white;
 }
 
 .footer-first {
@@ -79,15 +82,27 @@
     width: 33%;
 }
 
-.follow-us {
-    padding-right: 10px;
-    font-size: 18px;
-    font-weight: bold;
-}
+/* .follow-us {
+    font-family: Catamaran;
+    padding-right: 4px;
+    font-size: 23px;
+    font-weight: 400;
+    /* border-right: 1px solid white; */
+
 
 .social-logo {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+#social-logos {
+    color:white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer-address {
+    padding-bottom: 15px;
 }
 
 .mail-ids2 {
@@ -96,26 +111,20 @@
     justify-content: center;
     align-items: center;
     padding-top: 4px;
+    font-family: Catamaran;
 }
 
 .main-address{
     font-size: 17px;
     padding-top: 4px;
+    font-family: Catamaran;
 }
 
-.follow-us2 {
-    width: 11%;
-    padding-right: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    border-bottom: 1px solid white;
-}
-
-.follow-us3 {
-    width: 12%;
-    padding-right: 10px;
-    font-size: 18px;
-    font-weight: bold;
+.follow-us {
+    width: 20%;
+    font-family: Catamaran;
+    font-size: 19px;
+    font-weight: 500;
     border-bottom: 1px solid white;
 }
 
