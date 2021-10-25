@@ -10,10 +10,7 @@ function SignUp() {
                     <h1>Want to try it out?</h1>
                 </div>
                 <div className="mail-info">
-                    <p>Sign up for a demo today! <br />Either fill out the form or mail us at:</p> <br />
-                    <div className="mail-ids">
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i> parthshah@abilitare.com</p>
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i> mohitpatil@abilitare.com</p>
+                    <p>Sign up for a demo today! </p>
                     </div>
                 </div>
             </div>
