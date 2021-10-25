@@ -1,11 +1,11 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import nano from '../images/nano.jpg';
-import nano_headband_worn from '../images/nano_headband_worn.jpg';
-import earable from '../images/earable.jpg'
-import earable_worn from '../images/earable_worn.jpg'
+import nano from '../../../images/nano.jpg';
+import nano_headband_worn from '../../../images/nano_headband_worn.jpg';
+import earable from '../../../images/earable.jpg'
+import earable_worn from '../../../images/earable_worn.jpg'
 import Card from './CardItem';
-import './Slideshow.css';
+import '../Assets/CSS/Slideshow.css';
 
 
 const responsive = {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css';
-import enabled from '../images/for-the-en-abled.jpg';
+import '../Assets/CSS/Footer.css';
+import enabled from '../../../images/for-the-en-abled.jpg';
 
 function Footer() {
     const [click, setClick] = useState(false);

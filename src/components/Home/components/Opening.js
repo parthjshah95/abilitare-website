@@ -1,8 +1,8 @@
 import React from 'react';
-import '../App.css';
+import '../../../App.css';
 import { Button } from './Button';
-import './Opening.css';
-import demo_gif from '../images/demo_0.gif';
+import '../Assets/CSS/Opening.css';
+import demo_gif from '../../../images/demo_0.gif';
 
 function Opening() {
     return (

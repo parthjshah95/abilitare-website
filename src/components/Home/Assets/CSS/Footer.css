@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('../fonts/Raleway/static/Raleway-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+    src: url('../../../../fonts/Raleway/static/Raleway-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 .footer {
