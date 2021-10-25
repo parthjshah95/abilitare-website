@@ -11,7 +11,7 @@ function SignUp() {
                 </div>
                 <div className="mail-info">
                     <p>Sign up for a demo today! </p>
-                    </div>
+                    
                 </div>
             </div>
             <div className="google-form">
