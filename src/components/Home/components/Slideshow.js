@@ -1,11 +1,11 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import nano from '../images/nano.jpg';
-import nano_headband_worn from '../images/nano_headband_worn.jpg';
-import earable from '../images/earable.jpg'
-import earable_worn from '../images/earable_worn.jpg'
+import nano from '../../../images/nano.jpg';
+import nano_headband_worn from '../../../images/nano_headband_worn.jpg';
+import earable from '../../../images/earable.jpg'
+import earable_worn from '../../../images/earable_worn.jpg'
 import Card from './CardItem';
-import './Slideshow.css';
+import '../Assets/CSS/Slideshow.css';
 
 
 const responsive = {
@@ -47,25 +47,25 @@ function Slideshow () {
             
             <Card 
                 src={nano} 
-                label="current beta prototype"
+                label="Current Beta Prototype"
                 text="Prototype currently in use for beta trials"
             />
             
             <Card 
                 src={nano_headband_worn} 
-                label="current beta prototype"
+                label="Current Beta Prototype"
                 text="Sensor can be worn as a headband"
             />
             
             <Card 
                 src={earable} 
-                label="upcoming MVP"
+                label="Upcoming MVP"
                 text="Concept design for an earable sensor"
             />
             
             <Card 
                 src={earable_worn} 
-                label="upcoming MVP"
+                label="Upcoming MVP"
                 text="Earable sensors are tiny, discreet, comfortable and portable"
             />
 

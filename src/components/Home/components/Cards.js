@@ -1,7 +1,7 @@
 import React from 'react'
 import CardItem from './CardItem'
-import './Cards.css';
-import image from '../images/temp-device.jpeg'  
+import '../Assets/CSS/Cards.css';
+import image from '../../../images/temp-device.jpeg'  
 
 function Cards() {
     return (
