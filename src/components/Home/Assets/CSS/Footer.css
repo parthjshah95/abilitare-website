@@ -1,85 +1,86 @@
 @font-face {
-    font-family: 'Raleway';
-    src: url('../../../../fonts/Raleway/static/Raleway-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-family: "Raleway";
+  src: url("../../../../fonts/Raleway/static/Raleway-Medium.ttf")
+    format("truetype"); /* Safari, Android, iOS */
 }
 
 .footer {
-    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-    background: #f46524;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    box-shadow: 0 -5px 20px rgba(0,0,0,0.19), 0 -3px 6px rgba(0,0,0,0.23);
-    margin-top: 40px;
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background: #f46524;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.19), 0 -3px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 40px;
 }
 
 .footer-top {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    height: 80%;
-    border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 80%;
+  /* border-bottom: 1px solid white; */
 }
 
 .footer-bottom {
-    color: white;
-    align-items: center;
-    height: 20%;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
+  color: white;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
 }
 
 .copyright {
-    font-family: Catamaran;
-    padding-top: 7px;
-    font-size: 18px;
-    color: white;
+  font-family: Catamaran;
+  padding-top: 7px;
+  font-size: 18px;
+  color: white;
 }
 
 .footer-first {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: flex-end;
-    width: 33%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  width: 33%;
 }
 
 .footer-logo {
-    color: #fff;
-    /* margin-left: 20px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    font-family: 'Raleway', serif;
+  color: #fff;
+  /* margin-left: 20px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Raleway", serif;
 }
 
 .footer-second {
-    color: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    width: 33%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 33%;
 }
 
 .footer-third {
-    color: white;
-    justify-content: center;
-    
-    align-items: left;
-    display: flex;
-    flex-direction: column;
-    width: 33%;
+  color: white;
+  justify-content: center;
+
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
 }
 
 /* .follow-us {
@@ -89,71 +90,69 @@
     font-weight: 400;
     /* border-right: 1px solid white; */
 
-
 .social-logo {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #social-logos {
-    color:white;
-    padding-left: 8px;
-    padding-right: 8px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .footer-address {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .mail-ids2 {
-    font-size: 18px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4px;
-    font-family: Catamaran;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+  font-family: Catamaran;
 }
 
-.main-address{
-    font-size: 17px;
-    padding-top: 4px;
-    font-family: Catamaran;
+.main-address {
+  font-size: 17px;
+  padding-top: 4px;
+  font-family: Catamaran;
 }
 
 .follow-us {
-    width: 20%;
-    font-family: Catamaran;
-    font-size: 19px;
-    font-weight: 500;
-    border-bottom: 1px solid white;
+  width: 20%;
+  font-family: Catamaran;
+  font-size: 19px;
+  font-weight: 500;
+  border-bottom: 1px solid white;
 }
 
 @media screen and (max-width: 960px) {
-    .footer-top {
-        flex-direction: column;
-    }
+  .footer-top {
+    flex-direction: column;
+  }
 
-    .footer-bottom {
-        height: 1%;
-    }
+  .footer-bottom {
+    height: 1%;
+  }
 
-    .footer-first {
-        justify-content: center;
-        height: 25%;
-    }
+  .footer-first {
+    justify-content: center;
+    height: 25%;
+  }
 
-    .footer-second {
-        height: 20%;
-        width: 70%;
-    }
+  .footer-second {
+    height: 20%;
+    width: 70%;
+  }
 
-    .footer-third {
-        
-        height: 55%;
-        width: 70%;
-    }
+  .footer-third {
+    height: 55%;
+    width: 70%;
+  }
 
-    .footer {
-        height: 600px;
-    }
+  .footer {
+    height: 600px;
+  }
 }
