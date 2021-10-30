@@ -1,7 +1,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 .testimonial-heading > h1 {
+  padding-top: 25px;
   color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -13,12 +13,12 @@
 }
 
 figure.snip1192 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
   min-width: 220px;
-  max-width: 310px;
+  max-width: 510px;
   width: 100%;
   color: #333;
   text-align: left;
@@ -45,7 +45,8 @@ figure.snip1192 blockquote {
   position: relative;
   background-color: #fafafa;
   padding: 30px 50px 65px 50px;
-  font-size: 0.8em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
   font-weight: 500;
   margin: 0 0 -50px;
   line-height: 1.6em;
@@ -53,7 +54,7 @@ figure.snip1192 blockquote {
 }
 figure.snip1192 blockquote:before,
 figure.snip1192 blockquote:after {
-  font-family: 'FontAwesome';
+	font-family: 'Raleway', sans-serif;
   content: "\201C";
   position: absolute;
   font-size: 50px;
@@ -76,13 +77,27 @@ figure.snip1192 .author {
   color: #ffffff;
 }
 figure.snip1192 .author h5 {
+	font-family: 'Raleway', sans-serif;
   opacity: 0.8;
   margin: 0;
   font-weight: 800;
 }
 figure.snip1192 .author h5 span {
+	font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-transform: none;
   display: block;
+}
+
+@media screen and (max-width: 1600px) {
+	figure.snip1192 {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	figure.snip1192 {
+		width: 80%;
+	}
 }
 
