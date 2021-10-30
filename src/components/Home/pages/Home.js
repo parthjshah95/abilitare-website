@@ -5,14 +5,15 @@ import Opening from '../components/Opening';
 import Slideshow from '../components/Slideshow';
 import Footer from '../components/Footer';
 import SignUp from '../components/SignUp';
+import Testimonials from '../components/Testimonials';
 
 function Home () {
     return (
         <>
         <Opening />
-        {/* <Cards /> */}
         <Slideshow/>
         <SignUp/>
+        <Testimonials/>
         <Footer/>
         </>
     )

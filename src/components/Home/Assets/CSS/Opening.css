@@ -78,6 +78,11 @@
 }
 
 @media screen and (max-width: 960px) {
+  .horizontal-flex {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
   .hero-container > h1 {
     font-size: 45px;
   }
