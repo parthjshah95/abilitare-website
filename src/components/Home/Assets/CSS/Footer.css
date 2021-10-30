@@ -55,13 +55,14 @@
 
 .footer-logo {
   color: #fff;
-  /* margin-left: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  justify-self: start;
+  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  font-family: "Raleway", serif;
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', serif;
 }
 
 .footer-second {

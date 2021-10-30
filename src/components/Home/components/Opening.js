@@ -96,13 +96,13 @@ function Opening() {
   return (
     <div className="horizontal-flex">
       <div className="hero-container">
-        <h1>Head Controlled Mouse</h1>
+        <h1>Head Controlled <span className="special-char">Mouse</span></h1>
         <div className="short-info">
           <p>
             Hand disability should not stop anyone from using a computer or a
-            phone
-          </p>
-          <p>Control the mouse cursor with your head!</p>
+            phone.<br/>
+            Control the mouse cursor with your head!
+            </p>
         </div>
         <div className="hero-btns">
           <Button
@@ -111,11 +111,13 @@ function Opening() {
             buttonSize="btn--large"
             href="#sign-up-section"
           >
-            Sign Up For Our Beta!
+            SIGN UP FOR OUR BETA
           </Button>
         </div>
       </div>
+      <div className="gif-container">
       <img class="contain" src={demo_gif} alt="" />
+      </div>
     </div>
   );
 }

@@ -14,11 +14,10 @@ function Footer() {
     <nav className="footer">
       <div className="footer-top">
         <div className="footer-first">
-          {/* <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
-                        Abilitare
-                    </Link> */}
+          
           <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
-            <img src={enabled} width="200" />
+            {/* <img src={enabled} width="200" /> */}
+            Abilitare
           </Link>
         </div>
         <div className="footer-second">
