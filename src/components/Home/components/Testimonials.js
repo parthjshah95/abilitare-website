@@ -73,7 +73,7 @@ function Testimonials() {
                         <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </blockquote>
                         <div class="author">
                             <img src="https://image.shutterstock.com/mosaic_250/2598844/1554086789/stock-photo-close-up-portrait-of-yong-woman-casual-portrait-in-positive-view-big-smile-beautiful-model-posing-1554086789.jpg" alt="sq-sample1" />
-                            <h5>Angela Doe <span> Businesswomen</span></h5>
+                            <h5>Angela Doe <span> Businesswoman</span></h5>
                         </div>
                     </figure>
 

@@ -16,26 +16,28 @@ function Footer() {
         <div className="footer-first">
           
           <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
-            {/* <img src={enabled} width="200" /> */}
+
             Abilitare
           </Link>
         </div>
         <div className="footer-second">
+          <div className="footer-social">
           <a href="https://twitter.com/Abilitare">
-            <i id="social-logos" class="fab fa-twitter fa-lg"></i>
+            <i id="social-logos" class="fab fa-twitter"></i>
           </a>
           <a href="https://www.facebook.com/AbilitareInc/">
-            <i id="social-logos" class="fab fa-facebook-f fa-lg"></i>
+            <i id="social-logos" class="fab fa-facebook-f"></i>
           </a>
           <a href="https://www.linkedin.com/company/abilitareinc/">
-            <i id="social-logos" class="fab fa-linkedin-in fa-lg"></i>
+            <i id="social-logos" class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://www.youtube.com/watch?v=fPDMhJKK-QY">
+          {/* <a href="https://www.youtube.com/watch?v=fPDMhJKK-QY">
             <i id="social-logos" class="fab fa-youtube fa-lg"></i>
-          </a>
+          </a> */}
           <a href="https://www.instagram.com/abilitare/">
-            <i id="social-logos" class="fab fa-instagram fa-lg"></i>
+            <i id="social-logos" class="fab fa-instagram"></i>
           </a>
+          </div>
         </div>
         <div className="footer-third text-xs lg:text-md">
           <div className="footer-address">

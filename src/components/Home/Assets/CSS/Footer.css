@@ -74,6 +74,19 @@
   width: 33%;
 }
 
+.footer-social {
+  width: 35%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-second #social-logos {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-third {
   color: white;
   justify-content: center;
@@ -98,8 +111,12 @@
 
 #social-logos {
   color: white;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-size: 1.4em;
+}
+
+.footer-second #social-logos:hover {
+  font-size: 1.7em;
+  transition: 0.15s ease-out;
 }
 
 .footer-address {
