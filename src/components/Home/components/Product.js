@@ -10,35 +10,28 @@ function Product() {
     return (
 
         <div className="product-section">
-            <div className="product-section2">
-                <div className="top-section">
-                    <div className="top-left">
-                        <div className="img-holder">
-                            <div className="main-img">
-                                <img src={nano} />
-                            </div>
-                            <div className="main-img">
-                                <img src={nano_headband_worn} />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="top-right">
-
+            <div className="top-section">
+                <div className="top-left">
+                    <div className="main-img">
+                        <img className="img-final" src={earable} />
+                        <img className="img-final" src={earable_worn} />
                     </div>
                 </div>
-                <div className="bottom-section">
-                    <div className="bottom-left">
-
-                    </div>
-                    <div className="bottom-right">
-                        <div className="img-holder">
-                            <div className="main-img">
-                                <img src={nano} />
-                            </div>
-                            <div className="main-img">
-                                <img src={nano_headband_worn} />
-                            </div>
-                        </div>
+                <div className="top-right">
+                    <h1>Upcoming MVP</h1>
+                    <p>Earable sensors are tiny, discrete, <br/>comfortable and portable.</p>
+                </div>
+            </div>
+            <div className="bottom-section">
+                <div className="bottom-left">
+                <h1>Current Beta Prototype</h1>
+                    <p>The prototype that is being used for beta trials <br/> is a sensor that can be worn as a headband.</p>
+                    
+                </div>
+                <div className="bottom-right">
+                <div className="main-img">
+                        <img className="img-final" src={nano} />
+                        <img className="img-final" src={nano_headband_worn} />
                     </div>
                 </div>
             </div>
