@@ -7,12 +7,14 @@ import Footer from '../components/Footer';
 import SignUp from '../components/SignUp';
 import Testimonials from '../components/Testimonials';
 import News from '../components/News';
+import Product from '../components/Product';
 
 function Home () {
     return (
         <>
         <Opening />
-        <Slideshow/>
+        {/* <Slideshow/> */}
+        <Product/>
         <SignUp/>
         <Testimonials/>
         <News/>
