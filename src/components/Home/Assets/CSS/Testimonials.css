@@ -46,6 +46,7 @@ figure.snip1192 blockquote {
   border-radius: 8px;
   position: relative;
   background-color: #333;
+  /* background-color: #f46524; */
   padding: 30px 50px 65px 50px;
   font-family: 'Raleway', sans-serif;
   font-size: 1em;

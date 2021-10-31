@@ -6,6 +6,7 @@ import Slideshow from '../components/Slideshow';
 import Footer from '../components/Footer';
 import SignUp from '../components/SignUp';
 import Testimonials from '../components/Testimonials';
+import News from '../components/News';
 
 function Home () {
     return (
@@ -14,6 +15,7 @@ function Home () {
         <Slideshow/>
         <SignUp/>
         <Testimonials/>
+        <News/>
         <Footer/>
         </>
     )

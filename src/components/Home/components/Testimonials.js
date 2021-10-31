@@ -25,7 +25,7 @@ function Testimonials() {
     return (
         <div className="testimonial-section">
             <div className="testimonial-heading">
-                <h1>Testimonials</h1>
+                <h1>What are our Customers saying</h1>
             </div>
             <div className="main-testimonials">
                 <Carousel

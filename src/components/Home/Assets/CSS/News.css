@@ -1,0 +1,51 @@
+.news-heading > h1 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.special-char {
+    color: #f46524;
+}
+
+.news-heading {
+    padding-top: 50px;
+    margin-bottom: -30px;
+}
+
+.w-full {
+    height: 250px;
+    transition: transform .3s
+}
+
+.w-full:hover {
+    transform: scale(1.02);
+}
+
+.main-news {
+    margin-right: 80px;
+}
+
+.max-w-sm {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.max-w-sm:hover {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width:1630px) {
+    .w-full {
+        height: 200px;
+    }
+} 
+
+@media screen and (max-width:775px) {
+    .main-news {
+        margin-right: 0px;
+    }
+} 
+  
