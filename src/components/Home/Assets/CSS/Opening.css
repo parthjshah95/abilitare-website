@@ -1,140 +1,143 @@
-/* .opening-gif {
-    background: url('../images/opening-gif.png') center center/cover no-repeat;
-    background-image: url("../images/opening-gif.png");
-} */
-
-.horizontal-flex{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* object-fit: contain; */
-    flex-wrap: wrap;
-    margin-bottom: 30px;
+.horizontal-flex {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 
 .hero-container {
-    /* background: url('images/img-home.jpg') center center/cover no-repeat; */
-    /* background-image: url(../images/opening-gif.jpg); */
-    width: 50%;
-    /* float: left; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2); */
-    margin: 20px 0px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .hero-container > h1 {
-    color: #f46524;
-    font-family: Catamaran;
-    font-size: 50px;
-    padding-bottom: 10px;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 0px;
 }
 
-.contain{
-    width: 47%;
-    height: 50%;
-    object-fit: contain;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5% ;
-    /* border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ; */
-    box-shadow: 15px 15px #f46524;
-    transition: all .4s ease;
+.special-char {
+  color: #f46524;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.gif-container {
+  width: 50%;
+  align-content: center;
+  
+}
+
+.contain {
+  width:95%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .contain:hover {
-    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5% ;
-    box-shadow: 10px 10px #f46524
-  }
+  box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 12px rgba(0,0,0,0.23);
+}
 
 .short-info {
-    width: 60%;
+  width: 50%;
 }
 
 .short-info > p {
-    margin-top: 8px;
-    text-align: center;
-    /* color: #fff; */
-    color: black;
-    font-size: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  margin-top: 8px;
+  text-align: center;
+  color: #555555;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
 }
 
 .hero-btns {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .hero-btns .btn {
-    margin: 6px;
+  margin: 6px;
 }
 
 .fa-play-circle {
-    margin-left: 4px;
+  margin-left: 4px;
 }
 
 @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-        font-size: 45px;
-    }
+  .horizontal-flex {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
 
-    .short-info {
-        width: 60%;
-    }
+  .hero-container > h1 {
+    font-size: 45px;
+  }
 
-    .hero-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
+  .short-info {
+    width: 60%;
+  }
 
-    .contain{
-        width: 100%;
-        height: 50%;
-        object-fit: contain;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
+  .hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .gif-container {
+    width: 100%;
+  }
+  .contain {
+    width: 90%;
+    object-fit: contain;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-        font-size: 40px;
-        padding-top: 5px;
-        padding-bottom: 25px;
-    }
+  .hero-container > h1 {
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
 
-    .short-info {
-        width: 80%;
-    }
+  .special-char {
+    font-size: 40px;
+  }
 
-    .short-info > p {
-        font-size: 20px;
-    }
+  .short-info {
+    width: 80%;
+  }
 
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
+  .short-info > p {
+    font-size: 20px;
+  }
 
-    .btn {
-        width: 100%;
-    }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
 
-    .contain{
-        width: 100%;
-        height: 50%;
-        object-fit: contain;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
+  .btn {
+    width: 100%;
+  }
 }

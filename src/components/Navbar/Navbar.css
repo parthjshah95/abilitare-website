@@ -9,7 +9,6 @@
 }
 
 .navbar {
-  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   background: #f46524;
   height: 80px;
   display: flex;
@@ -45,7 +44,7 @@
 
 .note {
   font-family: 'PT Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 10px;
   align-self: flex-end;
   font-style: italic;
@@ -65,7 +64,7 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 25px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -75,11 +74,13 @@
 
 .nav-item {
   height: 80px;
-  padding-left: 40px;
 }
 
 .nav-links {
-  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
