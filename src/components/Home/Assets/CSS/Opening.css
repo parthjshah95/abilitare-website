@@ -120,6 +120,10 @@
     padding-bottom: 0px;
   }
 
+  .special-char {
+    font-size: 40px;
+  }
+
   .short-info {
     width: 80%;
   }
