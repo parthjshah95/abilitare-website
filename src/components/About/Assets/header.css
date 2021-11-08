@@ -1,0 +1,51 @@
+.main {
+  text-align: center;
+}
+.content1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.content1 h2 {
+  background-color: #333;
+  color: #f46524;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.side1 {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.main1 {
+  flex: 1;
+  padding: 20px;
+  height: 500px;
+  margin: 10px;
+}
+.main2 {
+  flex: 1.6;
+  padding: 20px;
+  margin: 10px;
+}
+
+.hero-container1 > h1 {
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 0px;
+}
+@media (max-width: 1200px) {
+  .content1 {
+    flex-direction: column;
+  }
+}
