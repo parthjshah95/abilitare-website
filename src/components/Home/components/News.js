@@ -69,9 +69,9 @@ function News() {
                         <div class="max-w-sm rounded overflow-hidden shadow-5x">
                             <img class="w-full" src="https://media-exp1.licdn.com/dms/image/C4E22AQGX2PnOFQDwBg/feedshare-shrink_800/0/1634080437157?e=1638403200&v=beta&t=4UngFBfqHMdCyfvd9fPCrLGvpKVXDFCxr93h1uMh2Fg" height="201" alt="Mountain" />
                             <div class="px-6 py-4">
-                                <a href="https://www.facebook.com/FloridaVentureForum/posts/4287381377981564" class="font-bold text-xl mb-2">Abilitare won the Collegiate Competition at the #EarlyStage21 Capital Conference</a>
+                                <a href="https://www.facebook.com/FloridaVentureForum/posts/4287381377981564" class="font-bold text-xl mb-2">Abilitare won the Collegiate Competition at the EarlyStage21 Capital Conference</a>
                                 <p class="text-gray-700 text-base">
-                                    With more than 250+ attendees and 25+ early-stage startups, this was one of the largest venture capital conferences in Florida..
+                                    With more than 250+ attendees and 25+ early-stage startups, this was one of the largest venture capital conferences in..
                                 </p>
                             </div>
                             <div class="px-6 pt-1 pb-2">
