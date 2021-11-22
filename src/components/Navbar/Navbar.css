@@ -10,7 +10,7 @@
 
 .navbar {
   background: #f46524;
-  height: 80px;
+  height: 88px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,11 @@
   display: flex;
   align-items: center;
   font-family: 'Raleway', serif;
+}
+
+.navbar-logo:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .note {
@@ -91,6 +96,8 @@
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: white;
 }
 
 .fa-bars {
