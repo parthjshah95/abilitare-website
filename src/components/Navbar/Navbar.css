@@ -100,6 +100,18 @@
   color: white;
 }
 
+.nav-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
 .fa-bars {
   color: #fff;
 }
@@ -111,7 +123,6 @@
 .menu-icon {
   display: none;
 }
-
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
