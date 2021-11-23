@@ -5,63 +5,28 @@
     padding-top: 25px;
 }
 
-.half-block {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.left {
+    width: 50%;
+    margin: auto;
 }
 
-.top {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 30px;
-}
-
-.bottom > h1 {
-    color: #333;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-}
-
-.bottom {
-    padding-top: 50px;
-}
-
-.image {
-    width: 100%;
-    border: 2px solid black;
+.right {
+    width: 50%;
+    margin: auto;
 }
 
 .buttons {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin: auto;
+    justify-content: center;
 }
 
-.button {
-    height: 100%;
-    margin: auto;
+
+.right > h1 {
+   color: #333;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 40px;
 }
-
-.btn2 {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 8px 20px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  .btn2:hover {
-    background-color: RoyalBlue;
-  }
-
-  .buttons > h1 {
-    color: #333;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-  }

@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/downloads' exact component={Downloads} />
+        <Route path='/products/abili-toolbar' exact component={Downloads} />
         <Route path='/about-us' exact component={AboutUs} />
       </Switch>
     </Router>

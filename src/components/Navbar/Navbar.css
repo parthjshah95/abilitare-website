@@ -124,6 +124,15 @@
   display: none;
 }
 
+.dropdown-menu {
+  justify-content: center;
+}
+
+.dropdown-item {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
