@@ -17,7 +17,7 @@ function Info() {
                     <img src={infog} alt="" />
                 </div>
             </div>
-            <div className="second">
+            {/* <div className="second">
                 <div className="material2">
                     <h1>Our Head Controlled Mouse Allows Users <br />To Have Complete Functionalities Of A <br />Mouse Just With The Movement Of Their Head</h1>
                     <Button
@@ -32,6 +32,10 @@ function Info() {
                 <div className="img-info2">
                     <img src={imgtemp} alt="" />
                 </div>
+            </div> */}
+            <div className="mission">
+                <h1>Our Mission</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
     )

@@ -45,14 +45,24 @@
 }
 
 .team4 h5 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
     line-height: 22px;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
+
+
 .team4 .subtitle {
-    color: #8d97ad;
+    color: #555555;
     line-height: 24px;
-		font-size: 13px;
+		font-size: 14px;
+}
+
+.team4 h6 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 
 .team4 ul li a {

@@ -63,3 +63,23 @@
     font-size: 22px;
     font-family: "Raleway", sans-serif;
 }
+
+.mission {
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.mission > h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.mission > p {
+    text-align: center;
+    color: #555555;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+}

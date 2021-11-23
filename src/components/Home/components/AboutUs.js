@@ -12,8 +12,6 @@ function AboutUs() {
                 <h1>Team</h1>
                 <div class="py-5 team4">
                     <div class="container">
-                        <div class="row justify-content-center mb-4">
-                        </div>
                         <div class="row">
                             <div class="col-lg-3 mb-4">
                                 <div class="row">
@@ -26,10 +24,9 @@ function AboutUs() {
                                             <h6 class="subtitle mb-3">CEO and Co-Founder</h6>
                                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                                             <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter fa-2x"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -43,13 +40,12 @@ function AboutUs() {
                                     <div class="col-md-12 text-center">
                                         <div class="pt-2">
                                             <h5 class="mt-4 font-weight-medium mb-0">Parth Shah</h5>
-                                            <h6 class="subtitle mb-3">President</h6>
+                                            <h6 class="subtitle mb-3">President and Co-Founder</h6>
                                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                                             <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter fa-2x"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -66,10 +62,9 @@ function AboutUs() {
                                             <h6 class="subtitle mb-3">Property Specialist</h6>
                                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                                             <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter fa-2x"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -86,10 +81,9 @@ function AboutUs() {
                                             <h6 class="subtitle mb-3">Property Specialist</h6>
                                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                                             <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook fa-2x"></i></a></li>
+                                                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter fa-2x"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
