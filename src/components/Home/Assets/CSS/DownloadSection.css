@@ -30,3 +30,33 @@
    font-weight: 600;
    font-size: 40px;
 }
+
+.how-to > h1 {
+    color: #333;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 40px;
+}
+
+.single-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-gif {
+    padding: 25px 25px;
+    width: 50%;
+}
+
+.right-info {
+    padding: 25px 25px;
+    width: 50%;
+    margin: auto;
+}
+
+.right-info > h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
