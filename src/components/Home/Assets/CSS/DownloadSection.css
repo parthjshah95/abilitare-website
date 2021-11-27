@@ -21,6 +21,11 @@
     flex-direction: row;
     margin: auto;
     justify-content: center;
+    column-gap: 20px;
+}
+
+.toolbarimg {
+    margin: auto;
 }
 
 
@@ -28,14 +33,19 @@
    color: #333;
    font-family: 'Raleway', sans-serif;
    font-weight: 600;
-   font-size: 40px;
+   font-size: 50px;
 }
 
 .how-to > h1 {
     color: #333;
    font-family: 'Raleway', sans-serif;
    font-weight: 600;
-   font-size: 40px;
+   font-size: 50px;
+}
+
+.how-to {
+    display: flex;
+    flex-direction: column;
 }
 
 .single-section {
@@ -46,6 +56,10 @@
 .left-gif {
     padding: 25px 25px;
     width: 50%;
+}
+
+.left-gif > img {
+    width: 100%;
 }
 
 .right-info {
@@ -59,4 +73,10 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 40px;
+}
+
+.right-info > p {
+    color: #555555;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
 }
