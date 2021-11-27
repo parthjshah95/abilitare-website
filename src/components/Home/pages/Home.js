@@ -8,12 +8,13 @@ import SignUp from '../components/SignUp';
 import Testimonials from '../components/Testimonials';
 import News from '../components/News';
 import Product from '../components/Product';
+import Info from '../components/Info'
 
 function Home () {
     return (
         <>
         <Opening />
-        {/* <Slideshow/> */}
+        <Info/>
         <Product/>
         <SignUp/>
         <Testimonials/>
