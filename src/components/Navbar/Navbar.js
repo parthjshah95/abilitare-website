@@ -44,8 +44,9 @@ function Navbar() {
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
                             <div class="dropdown-menu">
-                                <Link to='/products/abili-mouse' class="dropdown-item">Abili Mouse</Link>
                                 <Link to='/products/abili-toolbar' class="dropdown-item">Abili Toolbar</Link>
+                                <a href="https://shop.abilitare.com/products/abili-mouse" class="dropdown-item">Abili Mouse</a>
+                                <Link to='/products/abili-switch' class="dropdown-item">Abili Switch</Link>
                             </div>
                         </Link>
                     </li>

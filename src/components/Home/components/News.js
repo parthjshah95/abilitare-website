@@ -1,6 +1,10 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../Assets/CSS/News.css';
+import ps27 from "../../../images/ps27.png";
+import floridaventure from "../../../images/floridaventure.jpeg";
+import warrington from "../../../images/warrington.jpg";
+import launch from "../../../images/launch.jpg";
 
 
 const responsive = {
@@ -53,7 +57,7 @@ function News() {
                     <div class="p-10">
                         <div class="max-w-sm rounded overflow-hidden shadow-5x">
                             {/* <img class="w-full" src="https://images.squarespace-cdn.com/content/v1/574f5d401bbee0485a5f2027/3e960c54-9076-4652-9b44-2d449b9f23a4/PS27+Leadership+Day+Shark+Tank+Winner.png?format=750w" alt="Mountain" /> */}
-                            <img class="w-full" src="https://media-exp1.licdn.com/dms/image/C4E22AQHVI8FCI4JM8g/feedshare-shrink_2048_1536/0/1635358821482?e=1638403200&v=beta&t=0VnawI2vGs3rMomoBbQUJOdHuFS4FlHMaPrVoTPWtLw" alt="Mountain" />
+                            <img class="w-full" src={ps27} alt="ps27" />
                             <div class="px-6 py-4">
                                 <a href="https://www.ps27ventures.com/news/leadershipdaysharktankwinner" class="font-bold text-xl mb-2">Over 200 Founders Attend PS27 Leadership Day and Startup Abilitare Takes Home $10K</a>
                                 <p class="text-gray-700 text-base">
@@ -67,7 +71,7 @@ function News() {
                     </div>
                     <div class="p-10">
                         <div class="max-w-sm rounded overflow-hidden shadow-5x">
-                            <img class="w-full" src="https://media-exp1.licdn.com/dms/image/C4E22AQGX2PnOFQDwBg/feedshare-shrink_800/0/1634080437157?e=1638403200&v=beta&t=4UngFBfqHMdCyfvd9fPCrLGvpKVXDFCxr93h1uMh2Fg" height="201" alt="Mountain" />
+                            <img class="w-full" src={floridaventure} height="201" alt="floridaventure" />
                             <div class="px-6 py-4">
                                 <a href="https://www.facebook.com/FloridaVentureForum/posts/4287381377981564" class="font-bold text-xl mb-2">Abilitare won the Collegiate Competition at the EarlyStage21 Capital Conference</a>
                                 <p class="text-gray-700 text-base">
@@ -81,7 +85,7 @@ function News() {
                     </div>
                     <div class="p-10">
                         <div class="max-w-sm rounded overflow-hidden shadow-5x">
-                            <img class="w-full" src="https://news.warrington.ufl.edu/wp-content/uploads/2021/04/BrainForce-1080x675.jpg" alt="Mountain" />
+                            <img class="w-full" src={warrington} alt="warrington" />
                             <div class="px-6 py-4">
                                 <a href="https://news.warrington.ufl.edu/students/brainforce-wins-25000-in-2021-big-idea-competition/" class="font-bold text-xl mb-2">BrainForce wins $25,000 in 2021 Big Idea Competition</a>
                                 <p class="text-gray-700 text-base">
@@ -97,7 +101,7 @@ function News() {
 
                     <div class="p-10">
                         <div class="max-w-sm rounded overflow-hidden shadow-5x">
-                            <img class="w-full" src="https://erau.edu/-/media/images/university/micaplex/lyv/launch-logo-4c.jpg?h=352&la=en&w=1200&hash=4AC55EA6A653B1529B2697EB08362B5B5E1B439F" alt="Mountain" />
+                            <img class="w-full" src={launch} alt="launch" />
                             <div class="px-6 py-4">
                                 <a href="https://erau.edu/launchyourventure" class="font-bold text-xl mb-2">BrainForce secures third place at 2021 Launch Your Venture</a>
                                 <p class="text-gray-700 text-base">
