@@ -32,7 +32,7 @@ function Product() {
             </div>
             <div className="bottom-section">
                 <div className="bottom-left">
-                    <h1>Abili switch</h1>
+                    <h1>Abili Switch</h1>
                     <div className="short-info2">
                     <p>Bluetooth adaptive switch with feather-touch. Use with elbows, feet or fists.</p>
                     </div>

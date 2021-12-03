@@ -41,14 +41,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li class="nav-item dropdown">
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                        <a href="https://shop.abilitare.com/collections/all" className='nav-links' onClick={closeMobileMenu}>
+                            <a href="https://shop.abilitare.com/collections/all" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
                             <div class="dropdown-menu">
                                 <Link to='/products/abili-toolbar' class="dropdown-item">Abili Toolbar</Link>
                                 <a href="https://shop.abilitare.com/products/abili-mouse" class="dropdown-item">Abili Mouse</a>
-                                <Link to='/products/abili-switch' class="dropdown-item">Abili Switch</Link>
+                                <a href="https://shop.abilitare.com/products/abili-switch" class="dropdown-item">Abili Switch</a>
                             </div>
-                        </Link>
+                        </a>
                     </li>
                     {/* <li className='nav-item'>
                         <Link to='/manual' className='nav-links' onClick={closeMobileMenu}>
