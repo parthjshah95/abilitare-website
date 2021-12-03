@@ -29,7 +29,7 @@ function Navbar() {
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     Abilitare
-                    <span className="note">(previously <span className="brainforce-logo">BrainForce</span>)</span>
+                    {/* <span className="note">(previously <span className="brainforce-logo">BrainForce</span>)</span> */}
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
