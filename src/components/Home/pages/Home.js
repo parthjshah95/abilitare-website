@@ -16,8 +16,8 @@ function Home () {
         <Opening />
         <Info/>
         <Product/>
-        <SignUp/>
-        <Testimonials/>
+        {/* <SignUp/> */}
+        {/* <Testimonials/> */}
         <News/>
         <Footer/>
         </>
