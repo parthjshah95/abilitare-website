@@ -68,9 +68,9 @@ function Opening() {
             className="btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
-            href="#sign-up-section"
+            href="https://shop.abilitare.com/collections/all"
           >
-            SIGN UP FOR OUR BETA
+            BOOK NOW
           </Button>
         </div>
       </div>

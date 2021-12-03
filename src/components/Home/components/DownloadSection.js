@@ -33,14 +33,14 @@ function DownloadSection() {
                         >
                             Download for Windows  <i class="fab fa-windows fa-lg"></i>
                         </Button>
-                        <Button
+                        {/* <Button
                             className="btns"
                             buttonStyle="btn--primary"
                             buttonSize="btn--large"
                             href="#"
                         >
                             Download for Mac  <i class="fab fa-apple fa-lg"></i>
-                        </Button>
+                        </Button> */}
                     </div>
                 </div>
             </div>

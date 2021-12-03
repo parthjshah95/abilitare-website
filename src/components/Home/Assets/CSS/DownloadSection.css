@@ -1,8 +1,9 @@
 .main {
     display: flex;
     flex-direction: row;
-    height: 70vh;
+    /* height: 70vh; */
     padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .left {
@@ -13,6 +14,7 @@
 .right {
     width: 50%;
     margin: auto;
+    justify-content: center;
 }
 
 .buttons {
@@ -26,6 +28,7 @@
 
 .toolbarimg {
     margin: auto;
+    object-fit: cover;
 }
 
 
@@ -63,7 +66,7 @@
 }
 
 .right-info {
-    padding: 25px 25px;
+    padding: 20px 20px;
     width: 50%;
     margin: auto;
 }
@@ -79,4 +82,31 @@
     color: #555555;
     font-size: 22px;
     font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+    .single-section {
+        flex-direction: column;
+    }
+
+    .left-gif {
+        width: 100%;
+    }
+
+    .right-info {
+        padding: 0px
+    }
+
+    .main {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
+  
+@media screen and (max-width: 580px) {
+  
 }
