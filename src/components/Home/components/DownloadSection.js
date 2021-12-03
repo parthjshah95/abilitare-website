@@ -29,7 +29,7 @@ function DownloadSection() {
                             className="btns"
                             buttonStyle="btn--primary"
                             buttonSize="btn--large"
-                            href="#"
+                            href="https://drive.google.com/file/d/1DRR5BF4_Wi5pgSLEh0e0079pQCoM9wkP/view?usp=sharing"
                         >
                             Download for Windows  <i class="fab fa-windows fa-lg"></i>
                         </Button>
