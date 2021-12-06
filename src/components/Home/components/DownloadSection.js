@@ -29,7 +29,7 @@ function DownloadSection() {
                             className="btns"
                             buttonStyle="btn--primary"
                             buttonSize="btn--large"
-                            href="https://drive.google.com/file/d/1DRR5BF4_Wi5pgSLEh0e0079pQCoM9wkP/view?usp=sharing"
+                            href="https://github.com/parthjshah95/mouse_toolbar/releases/download/1.2.0.0/MouseToolbar-1.2.0.0-win64.msi"
                         >
                             Download for Windows  <i class="fab fa-windows fa-lg"></i>
                         </Button>
