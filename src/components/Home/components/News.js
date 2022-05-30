@@ -61,7 +61,7 @@ function News() {
                             <div class="px-6 py-4">
                                 <a href="https://www.ps27ventures.com/news/leadershipdaysharktankwinner" class="font-bold text-xl mb-2">Over 200 Founders Attend PS27 Leadership Day and Startup Abilitare Takes Home $10K</a>
                                 <p class="text-gray-700 text-base">
-                                    Congratulations to the Abilitare team, Parth Shan and Mohit Patil for winning the PS27 Leadership Day $10K Shark Tank Prize!..
+                                    Congratulations to the Abilitare team, Parth Shah and Mohit Patil for winning the PS27 Leadership Day $10K Shark Tank Prize!..
                                 </p>
                             </div>
                             <div class="px-6 pt-1 pb-2">

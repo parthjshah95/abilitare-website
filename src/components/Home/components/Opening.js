@@ -75,7 +75,10 @@ function Opening() {
         </div>
       </div>
       <div className="gif-container">
-      <img class="contain" src={demo_gif} alt="" />
+      {/* <img class="contain" src={demo_gif} alt="" /> */}
+      <img class="contain"
+        src="https://github.com/parthjshah95/abilitare-website/raw/main/src/images/demo_0.gif"
+      />
       </div>
     </div>
   );
